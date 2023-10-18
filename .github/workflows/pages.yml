@@ -33,7 +33,7 @@ jobs:
         working-directory: 'Sample/TypeScript/Demo'
     steps:
       - name: Checkout
-        uses: actions/checkout@latest
+        uses: actions/checkout@v4
         with:
           submodules: recursive
       - uses: actions/setup-node@v3
